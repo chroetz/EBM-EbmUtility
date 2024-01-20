@@ -16,7 +16,7 @@ setupBatches <- function(vec, nBatches) {
 #' @export
 splitAndGetOneBatch <- function(name, values, nBatches, batchIndex) {
   if (!hasValue(nBatches) || nBatches[[1]] == 1) {
-    cat("All", name, "values are one batch.\n")
+    cat("All", name, "values are one batch of length", length(values), ".\n")
     return(values)
   }
   cat("Split", name, "into", nBatches, "batches.\n")

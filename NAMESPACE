@@ -2,6 +2,11 @@
 
 export(hasValue)
 export(hasValueString)
+export(longestCommonPrefix)
+export(longestCommonSuffix)
 export(removeFileNameEnding)
 export(setupBatches)
 export(splitAndGetOneBatch)
+export(uniqueMiddle)
+importFrom(dplyr,first)
+importFrom(dplyr,last)
