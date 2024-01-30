@@ -2,6 +2,7 @@
 "_PACKAGE"
 
 #' @importFrom dplyr first last
+#' @importFrom stringr str_extract
 NULL
 
 ## usethis namespace: start
